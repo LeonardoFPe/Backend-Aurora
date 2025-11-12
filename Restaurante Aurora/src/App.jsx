@@ -8,6 +8,7 @@ import SectionHighlights from './components/SectionHighlights'
 import SectionAmbience from "./components/SectionAmbience"
 import SectionReviews from './components/SectionReviews'
 import SectionReservation from './components/SectionReservation'
+import SectionMaps from './components/SectionMaps'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <SectionAmbience/>
       <SectionReviews/>
       <SectionReservation/>
+      <SectionMaps/>
     </>
   )
 }
