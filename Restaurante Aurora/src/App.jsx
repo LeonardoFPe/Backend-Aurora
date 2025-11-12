@@ -3,6 +3,7 @@ import './App.css'
 import Header from "./components/Header"
 import Main from "./components/Main"
 import SectionDifferences from './components/SectionDifferences'
+import SectionTeacher from "./components/SectionTeacher"
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
       <Header/>
       <Main />
       <SectionDifferences/>
-      
+      <SectionTeacher/>
     </>
   )
 }
