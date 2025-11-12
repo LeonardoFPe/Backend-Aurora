@@ -1,0 +1,56 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 60px 0px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 562px;
+}
+
+.main-content h1{
+    font-family: var(--font-title);
+    font-size: var(--font-h1);
+    font-weight: bold;
+}
+
+.active-experience{
+    color: var(--color-primary-orange);
+}
+
+.main-content p{
+    font-size: var(--font-body);    
+    font-family: var(--font-body2);
+    color: var(--color-secondary-l-gray);
+    line-height: 30px;
+}
+
+.buttons-standard{
+    display: flex;
+    gap: 20px;
+}
+
+.btn-order{
+    text-decoration: none;
+    background-color: var(--color-secondary-dark);
+    color: var(--color-secondary-white);
+    font-family: var(--font-title);
+    font-size: var(--font-button);
+    padding: 12px 30px;
+    border-radius: 15px 3px;
+}
+
+.btn-find{
+    text-decoration: none;
+    background-color: var(--color-primary-orange);
+    color: var(--color-secondary-white);
+    font-family: var(--font-title);
+    font-size: var(--font-button);
+    padding: 12px 30px;
+    border-radius: 15px 3px;
+}
