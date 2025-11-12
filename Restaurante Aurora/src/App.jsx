@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import Main from "./components/Main"
 import SectionDifferences from './components/SectionDifferences'
 import SectionTeacher from "./components/SectionTeacher"
+import SectionHighlights from './components/SectionHighlights'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Main />
       <SectionDifferences/>
       <SectionTeacher/>
+      <SectionHighlights/>
     </>
   )
 }
