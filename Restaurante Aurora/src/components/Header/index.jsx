@@ -1,5 +1,6 @@
 import React from "react";
 import logoHeader from "../images/logo-restaurante 1.svg"
+import "./style.css"
 
 function Header(){
     return(
@@ -19,3 +20,5 @@ function Header(){
     </header>
     )
 }
+
+export default Header;

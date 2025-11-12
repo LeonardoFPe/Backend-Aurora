@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-header ul li a{
+    text-decoration: none;
+    color: var(--color-secondary-dark);
+    font-family: var(--font-body2);
+}
+
+.btn-reservation{
+    text-decoration: none;
+    color: var(--color-secondary-white);
+    background-color: var(--color-primary-orange);
+    padding: 12px 30px;
+    font-family: var(--font-title);
+    font-size: var(--font-button);
+    border-radius: 15px 3px;
+}
