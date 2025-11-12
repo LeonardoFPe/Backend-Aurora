@@ -6,6 +6,7 @@ import SectionDifferences from './components/SectionDifferences'
 import SectionTeacher from "./components/SectionTeacher"
 import SectionHighlights from './components/SectionHighlights'
 import SectionAmbience from "./components/SectionAmbience"
+import SectionReviews from './components/SectionReviews'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <SectionTeacher/>
       <SectionHighlights/>
       <SectionAmbience/>
+      <SectionReviews/>
     </>
   )
 }

@@ -4,6 +4,7 @@ import ambiente02 from "../images/ambiente-02.svg"
 import ambiente03 from "../images/ambiente-03.svg"
 import ambiente04 from "../images/ambiente-04.svg"
 import ambiente05 from "../images/ambiente-05.svg"
+import "./style.css"
 
 function SectionAmbience(){
     return(

@@ -1,0 +1,35 @@
+.section-ambiance{
+    padding: 60px 0px;
+}
+
+.section-ambiance h2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: var(--font-title);
+    font-size: var(--font-h2);
+    padding-bottom: 25px;
+}
+
+.active-ambiance{
+    color: var(--color-primary-orange);
+}
+
+.container-images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.images-cut{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+.images-line{
+    display: flex;
+    gap: 30px;
+}
