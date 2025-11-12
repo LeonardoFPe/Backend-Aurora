@@ -5,6 +5,7 @@ import Main from "./components/Main"
 import SectionDifferences from './components/SectionDifferences'
 import SectionTeacher from "./components/SectionTeacher"
 import SectionHighlights from './components/SectionHighlights'
+import SectionAmbience from "./components/SectionAmbience"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <SectionDifferences/>
       <SectionTeacher/>
       <SectionHighlights/>
+      <SectionAmbience/>
     </>
   )
 }
