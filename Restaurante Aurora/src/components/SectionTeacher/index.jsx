@@ -1,5 +1,6 @@
 import React from "react";
 import imgChefe from "../images/imageChefe.svg"
+import "./style.css"
 
     function SectionTeacher(){
         return(
