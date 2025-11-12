@@ -9,6 +9,7 @@ import SectionAmbience from "./components/SectionAmbience"
 import SectionReviews from './components/SectionReviews'
 import SectionReservation from './components/SectionReservation'
 import SectionMaps from './components/SectionMaps'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <SectionReviews/>
       <SectionReservation/>
       <SectionMaps/>
+      <Footer/>
     </>
   )
 }
