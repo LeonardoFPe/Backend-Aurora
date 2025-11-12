@@ -1,0 +1,75 @@
+footer{
+    padding: 60px 0px;
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+.logo-footer-group{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.logo-footer-group p{
+    font-family: var(--font-body2);
+    font-size: var(--font-body);
+    color: var(--color-secondary-dark);
+}
+
+.icons-sociais-footer{
+    display: flex;
+    gap: 15px;
+}
+
+.menu-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu-footer h3{
+    font-family: var(--font-title);
+    font-size: var(--font-h3);
+}
+
+.menu-footer a{
+    text-decoration: none;
+    color: var(--color-secondary-dark);
+    font-family: var(--font-body2);
+    font-size: var(--font-body);
+}
+
+.addres-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.addres-footer h3{
+    font-family: var(--font-title);
+    font-size: var(--font-h3);
+}
+
+.addres-footer p{
+    color: var(--color-secondary-dark);
+    font-family: var(--font-body2);
+    font-size: var(--font-body);
+}
+
+.contact-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-footer h3{
+    font-family: var(--font-title);
+    font-size: var(--font-h3);
+}
+
+.contact-footer p{
+    color: var(--color-secondary-dark);
+    font-family: var(--font-body2);
+    font-size: var(--font-body);
+}

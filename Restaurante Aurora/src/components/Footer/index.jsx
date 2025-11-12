@@ -4,6 +4,7 @@ import iconWhats from "../images/Frame 34.png"
 import iconInstagram from "../images/Frame 35.png"
 import iconX from "../images/Frame 36.png"
 import iconFacebook from "../images/Frame 37.png"
+import "./style.css"
 
 function Footer(){
     return(
