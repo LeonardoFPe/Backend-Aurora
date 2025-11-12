@@ -3,6 +3,7 @@ import iconTomate from "../images/cbi_tomato.svg"
 import iconAmbiente from "../images/icon-ambient.svg"
 import iconCalendar from "../images/icon-calendar.svg"
 import iconChefe from "../images/icon-chef.svg"
+import "./style.css"
 
 function SectionDifferences(){
     return(
@@ -27,7 +28,7 @@ function SectionDifferences(){
                     <p>Espaço perfeito para momentos especiais.</p>
                 </div>  
                 <div class="card-differences">
-                    <img src={iconTomate} alt="Icon Tomate"/>
+                    <img src={iconCalendar} alt="Icon Calendario"/>
                     <h3>Reserva Simples</h3>
                     <p>Garanta sua mesa com apenas alguns cliques.</p>
                 </div>  
