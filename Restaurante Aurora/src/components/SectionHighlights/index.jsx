@@ -3,6 +3,7 @@ import prato1 from "../images/prato-destaque-1.svg"
 import prato2 from "../images/prato-destaque-21.svg"
 import prato3 from "../images/prato-destaque-3.svg"
 import prato4 from "../images/prato-destaque-4.svg"
+import "./style.css"
 
 function SectionHighlights(){
     return(
