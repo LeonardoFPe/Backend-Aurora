@@ -1,5 +1,5 @@
 import React from "react";
-import illustrationMain from "../images/logo-restaurante 1.svg"
+import illustrationMain from "../images/illustration-main.svg"
 import "./style.css"
 
 function Main(){
