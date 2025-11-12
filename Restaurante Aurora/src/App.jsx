@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Header/>
-      <Main />
+      <Main/>
       <SectionDifferences/>
       <SectionTeacher/>
       <SectionHighlights/>

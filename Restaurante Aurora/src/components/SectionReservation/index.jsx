@@ -1,5 +1,6 @@
 import React from "react";
 import imgForm from "../images/imagem-formulario 1.svg"
+import "./style.css"
 
 function SectionReservation(){
     return(
