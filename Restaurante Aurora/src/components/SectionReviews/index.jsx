@@ -2,6 +2,7 @@ import React from "react";
 import imgUser from "../images/Ellipse 15.svg"
 import fullstar from "../images/full-star.svg"
 import emptystar from "../images/empty-star.svg"
+import "./style.css"
 
 function SectionReviews(){
     return(
