@@ -7,6 +7,7 @@ import SectionTeacher from "./components/SectionTeacher"
 import SectionHighlights from './components/SectionHighlights'
 import SectionAmbience from "./components/SectionAmbience"
 import SectionReviews from './components/SectionReviews'
+import SectionReservation from './components/SectionReservation'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <SectionHighlights/>
       <SectionAmbience/>
       <SectionReviews/>
+      <SectionReservation/>
     </>
   )
 }
