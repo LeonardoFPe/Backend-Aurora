@@ -1,11 +1,12 @@
-import React from "react";
-import logoHeader from "../images/logo-restaurante 1.svg"
-import "./style.css"
+import React, { useState, useEffect } from "react";
+import logoHeaderLight from "../images/logo-restaurante 1.svg"; 
+import "./style.css";
 
-function Header(){
+function Header() {
+
     return(
         <header>
-            <img src={logoHeader} alt="Logo Aurora"/>
+            <img src={logoHeaderLight} alt="Logo Aurora"/> 
 
             <nav className="nav-header">
                 <ul>
@@ -17,8 +18,8 @@ function Header(){
             </nav>
 
             <a href="" className="btn-reservation">Reserve agora</a>
-    </header>
+        </header>
     )
 }
 
-export default Header;
+export default Header;  
